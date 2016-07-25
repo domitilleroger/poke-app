@@ -1,0 +1,974 @@
+{
+	"pokedex":[
+		{
+			"id": "1",
+			"name_fr": "Bulbizarre",
+			"name_en": "Bulbasaur",
+			"desc": "Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis sa naissance. Il peut survivre plusieurs jours sans manger. Le bulbe de son dos enmagasine de l'énergie.",
+			"type": ["Plante", "Poison"]
+		},
+		{
+			"id": "2",
+			"name_fr": "Herbizarre",
+			"name_en": "Ivysaur",
+			"desc": "Son bulbe dorsal devient si gros qu'il ne peut plus tenir sur ses membres postérieurs. En emmagasinant de l'énergie, son bulbe grossit. Il en émane un arôme quand il va éclore.",
+			"type": ["Plante", "Poison"]
+		},
+		{
+			"id": "3",
+			"name_fr": "Florizarre",
+			"name_en": "Venusaur",
+			"desc": "Sa plante mûrit en absorbant les rayons du soleil. Il migre souvent vers les endroits ensoleillés. Les pétales de sa fleur dorsale absorbent les rayons du soleil pour en faire de l'énergie.",
+			"type": ["Plante", "Poison"]
+		},
+		{
+			"id": "4",
+			"name_fr": "Salamèche",
+			"name_en": "Charmander",
+			"desc": "Il préfère les endroits chauds. En cas de pluie, de la  vapeur se forme autour de sa queue. La flammèche au bout de sa queue émet un son crépitant audible seulement dans un endroit calme.",
+			"type": ["Feu"]
+		},
+		{
+			"id": "5",
+			"name_fr": "Reptincel",
+			"name_en": "Charmeleon",
+			"desc": "En agitant sa queue, il peut élever le niveau de la  température à un degré incroyable. Ce Pokémon est violent. Dans la furie d'un combat son aura brille d'une flamme bleutée.",
+			"type": ["Feu"]
+		},
+		{
+			"id": "6",
+			"name_fr": "Dracaufeu",
+			"name_en": "Charizard", 
+			"desc": "Il peut fondre la roche de son souffle brûlant. Il est souvent la cause de nombreux incendies. Quand il crache son souffle brûlant, la flamme au bout de sa queue s'embrase.",
+			"type": ["Feu", "Vol"]
+		},
+		{
+			"id": "7",
+			"name_fr": "Carapuce",
+			"name_en": "Squirtle", 
+			"desc": "Il peut cracher des jets d'écume. Caché sous l'eau, il crache un jet d'eau sur sa proie et se cache à l'intérieur de sa coquille.",
+			"type": ["Eau"]
+		},
+		{
+			"id": "8",
+			"name_fr": "Carabaffe",
+			"name_en": "Wartortle", 
+			"desc": "Il se cache au fond de l'eau pour guetter sa proie. Ses oreilles sont des gouvernails. Attaqué, il cache sa tête dans sa carapace, mais son corps trop gros ne peut y tenir en entier.",
+			"type": ["Eau"]
+		},
+		{
+			"id": "9",
+			"name_fr": "Tortank",
+			"name_en": "Blastoise", 
+			"desc": "Un Pokémon brutal armé de canons hydrauliques. Ses puissants jets d'eau sont dévastateurs. Une fois sa cible alignée, il projette des jets d'eau plus puissants qu'une lance à incendie.",
+			"type": ["Eau"]
+		},
+		{
+			"id": "10",
+			"name_fr": "Chenipan",
+			"name_en": "Caterpie",
+			"desc": "Ses petites pattes sont équipées de ventouses, lui  permettant de grimper aux murs. Quand on touche l'appendice sur son front, il sécrète un gaz puant pour se protéger.",
+			"type": [""]	
+		},
+		{
+			"id": "11",
+			"name_fr": "Chrysacier",
+			"name_en": "Metapod", 
+			"desc": "Il est vulnérable aux attaques tant que sa carapace fragile expose son corps tendre et mou. Il renforce sa carapace pour se protéger. Mais un coup puissant peut le déloger de son armure.",
+			"type": [""]
+		},
+		{
+			"id": "12",
+			"name_fr": "Papilusion",
+			"name_en": "Butterfree",
+			"desc": "En combat, il bat des ailes très rapidement pour  projete des poudres toxiques sur ses ennemis. Ses ailes sont enduites d'une poudre toxique imperméable. Il peut voler sous la pluie.",
+			"type": [""]
+		},
+		{
+			"id": "13",
+			"name_fr": "Aspicot",
+			"name_en": "Weedle", 
+			"desc": "Il se nourrit de feuilles dans les forêts. L'aiguillon sur son front est empoisonné. Prenez garde à la pique empoisonnée sur son front. Il se cache dans les buissons et les hautes herbes.",
+			"type": [""]
+		},
+		{
+			"id": "14",
+			"name_fr": "Coconfort",
+			"name_en": "Kakuna",
+			"desc": "Incapable de se déplacer de lui-même, il se défend en  durcissant sa carapace. Il se déplace très lentement. Menacé, il sort son aiguillon et empoisonne ses ennemis.",
+			"type": [""]
+		},
+		{
+			"id": "15",
+			"name_fr": "Dardargnan",
+			"name_en": "Beedrill", 
+			"desc": "Il vole à très grande vitesse. Il se bat avec les dards empoisonnés de ses bras. Il se sert de ses trois aiguillons empoisonnés pour attaquer sans relâche ses adversaires.",
+			"type": [""]
+		},
+		{
+			"id": "16",
+			"name_fr": "Roucool",
+			"name_en": "Pidgey",
+			"desc": "Il préfère les endroits chauds. En cas de pluie, de la  vapeur se forme autour de sa queue. De nature très docile, il préfère jeter du sable pour se défendre plutôt qu'attaquer.",
+			"type": [""]
+		},
+		{
+			"id": "17",
+			"name_fr": "Roucoups",
+			"name_en": "Pidgeotto", 
+			"desc": "Il protège son territoire avec ardeur et repousse à coups de bec tout intrus. Ce Pokémon est très vivace. Il survole en permanence son territoire pour chasser.",
+			"type": [""]
+		},
+		{
+			"id": "18",
+			"name_fr": "Roucarnage",
+			"name_en": "Pidgeot", 
+			"desc": "Il chasse en survolant la surface de l'eau et en plongeant pour attraper des proies faciles. Ce Pokémon vole à Mach 2 quand il chasse. Ses grandes griffes sont des armes redoutables.",
+			"type": [""]
+		},
+		{
+			"id": "19",
+			"name_fr": "Rattata",
+			"name_en": "Rattata",
+			"desc": "Sa morsure est très puissante. Petit et rapide, on en  voit un peu partout. Il peut ronger n'importe quoi. Quand on en voit un, il y en a certainement 40 dans le coin.",
+			"type": [""]
+		},
+		{
+			"id": "20",
+			"name_fr": "Rattatac",
+			"name_en": "Raticate",
+			"desc": "Si ses moustaches sont coupées, il perd le sens de  l'équilibre et devient moins rapide. Ses pattes sont palmées. Il peut poursuivre sa proie à travers les cours d'eau et les rivières.",
+			"type": [""]
+		},
+		{
+			"id": "21",
+			"name_fr": "Piafabec",
+			"name_en": "Spearow", 
+			"desc": "Il chasse les insectes dans les hautes herbes. Ses petites ailes lui permettent de voler très vite. Incapable de voler à haute altitude, il se déplace très vite pour protéger son territoire",
+			"type": [""]
+		},
+		{
+			"id": "22",
+			"name_fr": "Rapasdepic",
+			"name_en": "Fearow", 
+			"desc": "Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement. Un Pokémon à qui on ne la fait pas. S'il sent du danger, il fuit instantanément et à toute vitesse.",
+			"type": [""]
+		},
+		{
+			"id": "23",
+			"name_fr": "Abo",
+			"name_en": "Ekans", 
+			"desc": "Il se déplace en silence pour dévorer des oeufs de Roucool ou de Piafabec. Plus il est âgé, plus son corps est long. Il se love autour des arbres pour se reposer.",
+			"type": [""]
+		},
+		{
+			"id": "24",
+			"name_fr": "Arbok",
+			"name_en": "Arbok", 
+			"desc": "Les motifs féroces peints sur son corps changent selon son environnement. Des études menées sur les motifs effrayants de son corps ont révélé six variations différentes.",
+			"type": [""]
+		},
+		{
+			"id": "25",
+			"name_fr": "Pikachu",
+			"name_en": "Pikachu",
+			"desc": "Quand plusieurs de ces Pokémon se réunissent, ils  provoquent de gigantesques orages. Sa queue est dressée quand il est aux aguets. Si vous tirez dessus, il vous mordra.",
+			"type": [""]
+		},
+		{
+			"id": "26",
+			"name_fr": "Raichu",
+			"name_en": "Raichu", 
+			"desc": "Il doit garder sa queue en contact ave le sol pour éviter toute électrocution. Il devient tout excité quand il emmagasine de l'électricité. Il brille alors dans le noir.",
+			"type": [""]
+		},
+		{
+			"id": "27",
+			"name_fr": "Sabelette",
+			"name_en": "Sandshrew", 
+			"desc": "Il s'enterre dans les régions arides et désertiques. Il émerge seulement pour chasser. Son corps est sec. Quand la nuit déploie ses ailes de fraîcheur, son épiderme se couvre de rosée.",
+			"type": [""]
+		},
+		{
+			"id": "28",
+			"name_fr": "Sablaireau",
+			"name_en": "Sandslash", 
+			"desc": "Il peut ainsi s'enfuir ou attaquer. Ses griffes sont redoutables. Si une d'elles se casse, elle repoussera en un jour.",
+			"type": [""]
+		},
+		{
+			"id": "29",
+			"name_fr": "Nidoran♀",
+			"name_en": "Nidoran♀", 
+			"desc": "Ce Pokémon est hérissé de dards empoisonnés. Les femelles ont des dards plus petits. Un Pokémon paisible qui n'aime pas se battre. Ses petites cornes sont empoisonnées.",
+			"type": [""]
+		},
+		{
+			"id": "30",
+			"name_fr": "Nidorina",
+			"name_en": "Nidorina", 
+			"desc": "La corne de la femelle grandit lentement. Elle préfère attaquer avec ses griffes et sa gueule. Caché au fond de son terrier, ses cornes se rétractent. C'est la preuve qu'il est au repos.",
+			"type": [""]
+		},
+		{
+			"id": "31",
+			"name_fr": "Nidoqueen",
+			"name_en": "Nidoqueen",
+			"desc": "Ses écailles très résistantes et son corps massif sont des armes dévastatrices. Son corps musclé est recouvert de lourdes écailles. Elle poussent selon un cycle et un ordre précis.",
+			"type": [""]
+		},
+		{
+			"id": "32",
+			"name_fr": "Nidoran♂",
+			"name_en": "Nidoran♂",
+			"desc": "Son ouïe très fine l'avertit du danger. Plus ses cornes sont grandes, plus son poison est mortel. Ses grandes oreilles sont toujours dressées. S'il est menacé, il se défend avec un dard venimeux.",
+			"type": [""]
+		},
+		{
+			"id": "33",
+			"name_fr": "Nidorino",
+			"name_en": "Nidorino",
+			"desc": "Très agressif, il est prompt à répondre à la violence.  La corne sur sa tête est venimeuse. Ses cornes sont venimeuses. Si elles touchent un ennemi, elles lui injectent un poison violent.",
+			"type": [""]
+		},
+		{
+			"id": "34",
+			"name_fr": "Nidoking",
+			"name_en": "Nidoking",
+			"desc": "Sa queue est une arme redoutable, il s'en sert pour  attraper sa proie et lui broyer les os. Ses charges sont dévastatrices grâce à sa peau d'acier. Ses cornes percent même le diamant.",
+			"type": [""]
+		},
+		{
+			"id": "35",
+			"name_fr": "Mélofée",
+			"name_en": "Clefairy",
+			"desc": "Très recherché pour son aura, il est très rare et ne vit  que dans des endroits précis. Adoré pour son aspect mignon et joyeux, il est considéré comme rare. On en voit très peu.",
+			"type": [""]
+		},
+		{
+			"id": "36",
+			"name_fr": "Mélodelfe",
+			"name_en": "Clefable",
+			"desc": "apercevant un être humain. Il défend son habitat avec courage. C'est une sorte de fée qui ne se montre que rarement.",
+			"type": [""]
+		},
+		{
+			"id": "37",
+			"name_fr": "Goupix",
+			"name_en": "Vulpix",
+			"desc": "Il n'a qu'une seule queue à la naissance. Sa queue se divise à la pointe au fil des ans. Sa fourrure et sa queue sont magnifiques. En grandissant sa queue se divise en six.",
+			"type": [""]
+		},
+		{
+			"id": "38",
+			"name_fr": "Feunard",
+			"name_en": "Ninetales",
+			"desc": "Très intelligent et rancunier. Attrapez-lui une de ses queues et il vous maudira pour 1000 ans. Selon la légende, 9 esprits se sont unis et incarnés dans ce Pokémon mystérieux et magique.",
+			"type": [""]
+		},
+		{
+			"id": "39",
+			"name_fr": "Rondoudou",
+			"name_en": "Jigglypuff",
+			"desc": "Quand ses yeux s'illuminent, il chante une mystérieuse  berceuse. Son regard déstabilise ses adversaires. Il chante ensuite une berceuse qui les endort.",
+			"type": [""]
+		},
+		{
+			"id": "40",
+			"name_fr": "Grodoudou",
+			"name_en": "Wigglytuff",
+			"desc": "En cas de danger, il gonfle d'air son corps doux et  potelé dans des proportions gigantesques. Son corps est malléable. En aspirant de l'air il se gonfle dans des proportions gigantesques.",
+			"type": [""]
+		},
+		{
+			"id": "41",
+			"name_fr": "Nosferapti",
+			"name_en": "Zubat",
+			"desc": "Se déplace en colonie dans les endroits sombres. Il s'oriente grâce aux ultrasons. Il se dirige avec des ultrasons qui lui servent de sonar pour éviter les obstacles sur son trajet.",
+			"type": [""]
+		},
+		{
+			"id": "42",
+			"name_fr": "Nosferalto",
+			"name_en": "Golbat",
+			"desc": "Une fois son adversaire mordu, il absorbera son énergie  même s'il devient trop gros pour voler. Il attaque par surprise et sans crier gare. Ses longues dents lui servent à sucer le sang.",
+			"type": [""]
+		},
+		{
+			"id": "43",
+			"name_fr": "Mystherbe",
+			"name_en": "Oddish",
+			"desc": "Pendant la journée, il se cache sous terre. Il  s'aventure la nuit pour planter des graines. Il est souvent confondu avec un radis noir. Si on essaye de le soulever du sol, il hurle.",
+			"type": [""]
+		},
+		{
+			"id": "44",
+			"name_fr": "Ortide",
+			"name_en": "Gloom",
+			"desc": "Le liquide qui s'écoule de sa bouche est comestible. Il sert à appâter sa proie. Il sent très mauvais ! Mais 1 personne sur 1000 aime la puanteur de son corps nauséabond.",
+			"type": [""]
+		},
+		{
+			"id": "45",
+			"name_fr": "Rafflesia",
+			"name_en": "Vileplume",
+			"desc": "Plus ses pétales sont grands, plus ils contiennent de  pollen toxique. Il fait du bruit sourd quand il secoue ses pétales pour disperser son pollen empoisonné.",
+			"type": [""]
+		},
+		{
+			"id": "46",
+			"name_fr": "Paras",
+			"name_en": "Paras",
+			"desc": "Les champignons sur son dos se nourrissent des nutriments de leur hôte insectoïde. Il s'enfouit sous terre pour ronger des racines afin de nourrir le champignon sur son dos.",
+			"type": [""]
+		},
+		{
+			"id": "47",
+			"name_fr": "Parasect",
+			"name_en": "Parasect",
+			"desc": "Une symbiose entre un parasite et un insecte. Le champignon a pris le contrôle de son hôte. Le champignon absorbe son hôte insectoïde. Il semble doué de facultés intellectuelles.",
+			"type": [""]
+		},
+		{
+			"id": "48",
+			"name_fr": "Mimitoss",
+			"name_en": "Venonat",
+			"desc": "Il vit à l'ombre des grands arbres où il mange des insectes. Il est attiré par la lumière. Ses grands yeux lui servent de radar. En pleine lumière on peut y distinguer des facettes.",
+			"type": [""]
+		},
+		{
+			"id": "49",
+			"name_fr": "Aéromite",
+			"name_en": "Venomoth",
+			"desc": "Les motifs ocre de ses ailes changent en fonction de son type de poison. Les écailles de ses ailes sont inamovibles. Elles libèrent un poison violent au contact.",
+			"type": [""]
+		},
+		{
+			"id": "50",
+			"name_fr": "Taupiqueur",
+			"name_en": "Diglett",
+			"desc": "Il vit à un mètre sous la terre et se nourrit de racines. Il apparaît rarement à la surface. Il aime les lieux sombres. Il passe la majeure partie du temps sous terre ou dans des cavernes.",
+			"type": [""]
+		},
+		{
+			"id": "51",
+			"name_fr": "Triopikeur",
+			"name_en": "Dugtrio",
+			"desc": "Un groupe de Taupiqueur. Il crée des séismes en creusant à plus de 100 km de profondeur. Quand un de ces triplets creuse à plus de 90 Km/h, il provoque des tremblements de terre.",
+			"type": [""]
+		},
+		{
+			"id": "52",
+			"name_fr": "Miaouss",
+			"name_en": "Meowth",
+			"desc": "Il adore les pièces de monnaie. Il hante les rues à la recherche de pièces oubliées par les passants. Il est surtout actif la nuit. Il aime chaparder les objets ronds et brillants.",
+			"type": [""]
+		},
+		{
+			"id": "53",
+			"name_fr": "Persian",
+			"name_en": "Persian",
+			"desc": "Très apprécié pour sa fourrure, il est difficile à  apprivoiser en raison de son caractère rétif. Sa démarche est souple et majestueuse. La pierre sur son front brille de mille feux.",
+			"type": [""]
+		},
+		{
+			"id": "54",
+			"name_fr": "Psykokwak",
+			"name_en": "Psyduck",
+			"desc": "Il distrait ses ennemis avec des grimaces débiles et les attaque ensuite avec ses pouvoirs psy. Il est victime de violent maux de tête. Il utilise ses pouvoirs psy de façon discrète.",
+			"type": [""]
+		},
+		{
+			"id": "55",
+			"name_fr": "Akwakwak",
+			"name_en": "Golduck",
+			"desc": "Il nage avec élégance le long des côtes. Il est souvent confondu avec le monstre japonais : Kappa. Ses membres fins et longs sont terminés par des nageoires qui lui permettent de nager élégamment.",
+			"type": [""]
+		},
+		{
+			"id": "56",
+			"name_fr": "Férosinge",
+			"name_en": "Mankey",
+			"desc": "Il se met en colère très vite. Calme et furieux, son  humeur change d'une seconde à l'autre. Agile et rapide, ce Pokémon vit dans les arbres. Il est féroce et ne refuse jamais un combat.",
+			"type": [""]
+		},
+		{
+			"id": "57",
+			"name_fr": "Colossinge",
+			"name_en": "Primeape",
+			"desc": "Agressif et teigneux, il poursuit son gibier jusqu'à  épuisement complet. Sa fureur prend fin quand il n'a plus personne à frapper. Il est difficile d'en être témoin.",
+			"type": [""]
+		},
+		{
+			"id": "58",
+			"name_fr": "Caninos",
+			"name_en": "Growlithe",
+			"desc": "Pour protéger son territoire, il aboie et mord jusqu'à  ce que les intrus s'enfuient. Ce Pokémon est de nature amicale. Mais il devient hargneux quand son territoire est menacé.",
+			"type": [""]
+		},
+		{
+			"id": "59",
+			"name_fr": "Arcanin",
+			"name_en": "Arcanine",
+			"desc": "Un Pokémon très recherché pour sa grâce légendaire. Son pas élégant semble glisser sur le vent. Un Pokémon légendaire en Chine. Il est admiré pour la grâce et la beauté de sa course",
+			"type": [""]
+		},
+		{
+			"id": "60",
+			"name_fr": "Ptitard",
+			"name_en": "Poliwag",
+			"desc": "Il court mal avec ses petites pattes. Il préfère nager que de se tenir debout. Le sens de la spirale sur son ventre diffère selon son origine. Il préfère la nage à la marche.",
+			"type": [""]
+		},
+		{
+			"id": "61",
+			"name_fr": "Têtarte",
+			"name_en": "Poliwhirl",
+			"desc": "Amphibie, il peut vivre à l'air libre mais il doit  rester mouillé pour survivre. Attaqué, il se sert de sa spirale pour endormir sa proie. Il peut ainsi s'enfuir.",
+			"type": [""]
+		},
+		{
+			"id": "62",
+			"name_fr": "Tartard",
+			"name_en": "Poliwrath",
+			"desc": "Excellent nageur, il pratique le crawl ou la nage  papillon mieux qu'un champion olympique. Son corps très musclé lui permet de nager plus rapidement qu'un champion olympique.",
+			"type": [""]
+		},
+		{
+			"id": "63",
+			"name_fr": "Abra",
+			"name_en": "Abra",
+			"desc": "Son don de télépathie lui permet de sentir le danger et de se téléporter en un lieu sûr. Il dort 18 heures par jour. En cas de danger, il se téléporte vers un lieu sûr, même s'il est assoupi.",
+			"type": [""]
+		},
+		{
+			"id": "64",
+			"name_fr": "Kadabra",
+			"name_en": "Kadabra",
+			"desc": "Son corps émet des ondes alpha provoquant des migraines à ceux qui se trouvent à proximité. Sa présence cause des événements étranges, comme des pendules marchant à l'envers.",
+			"type": [""]
+		},
+		{
+			"id":"65",
+			"name_fr": "Alakazam",
+			"name_en": "Alakazam",
+			"desc": "Son super cerveau peut effectuer des opérations à la vitesse d'un ordinateur. Il a un Q.I. de 5000. Ce Pokémon est très intelligent. Sa mémoire est immense, il retient tout ce qu'il apprend."
+		},
+		{
+			"id":"66",
+			"name_fr": "Machoc",
+			"name_en": "Machop",
+			"desc": "Il adore la musculation. Il pratique les arts martiaux pour devenir encore plus fort. Très puissant malgré sa petite taille, il est passé maître en plusieurs types d'arts martiaux."
+		},
+		{
+			"id":"67",
+			"name_fr": "Machopeur",
+			"name_en": "Machoke",
+			"desc": "Son corps est si puissant qu'il lui faut une ceinture de force pour équilibrer ses mouvements. Sa ceinture sert à retenir son énergie. Sans elle, il serait invincible et incontrôlable."
+		},
+		{
+			"id":"68",
+			"name_fr": "Mackogneur",
+			"name_en": "Machamp",
+			"desc": "Ses coups de poing sont si puissants qu'ils font voler ses adversaires jusqu'à l'horizon. Un seul de ses bras peut bouger une montagne. Rien ne résiste aux quatre bras en même temps."
+		},
+		{
+			"id":"69",
+			"name_fr": "Chétiflor",
+			"name_en": "Bellsprout",
+			"desc": "Un Pokémon carnivore qui se nourrit de petits insectes. Ses racines servent d'attaches. Il préfère les endroits chauds et humides. Il capture sa proie avec ses lianes pour la dévorer."
+		},
+		{
+			"id":"70",
+			"name_fr": "Boustiflor",
+			"name_en": "Weepinbell",
+			"desc": "Il crache de la poudre toxique pour immobiliser sa proie et il l'achève avec de l'acide. Il peut avaler et digérer n'importe quoi grâce à l'hyperacidité de son estomac vorace."
+		},
+		{
+			"id":"71",
+			"name_fr": "Empiflor",
+			"name_en": "Victreebel",
+			"desc": "Il attire sa proie avec une odeur de miel et l'avale en entier. Il la digère en un seul jour."
+		},
+		{
+			"id": "72",
+			"name_fr": "Tentacool",
+			"name_en": "Tentacool",
+			"desc": "Flottant au bord des côtes, les pêcheurs se font souvent arroser d'acide quand ils en accrochent un. Certains échouent sur la plage et sèchent sur le sable. Poussez-les dans l'eau et ils revivent."
+		},
+		{
+			"id":"73",
+			"name_fr": "Tentacruel",
+			"name_en": "Tentacruel",
+			"desc": "Ses tentacules sont rétractés au repos. En situation de chasse, ils s'allongent. Ses 80 tentacules sont extensibles et autonomes. Ils inoculent un poison au contact."
+		},
+		{
+			"id":"74",
+			"name_fr": "Racaillou",
+			"name_en": "Geodude",
+			"desc": "Il vit dans les plaines ou les montagnes. On le confond souvent avec un petit caillou. On en trouve près des sentiers de montagne. Si vous marchez dessus, ils s'énervent et attaquent."
+		},
+		{
+			"id":"75",
+			"name_fr": "Gravalanch",
+			"name_en": "Graveler",
+			"desc": "Pour se déplacer il dégringole le long des pentes. Il pulvérise tout obstacle sur son passage. Il dévale les pentes le long des montagnes, et traverse les obstacles en les pulvérisant."
+		},
+		{
+			"id":"76",
+			"name_fr": "Grolem",
+			"name_en": "Golem",
+			"desc": "Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite. Son corps est blanc et tendre. Au contact de l'air sa peau se solidifie en une armure."
+		},
+		{
+			"id":"77",
+			"name_fr": "Ponyta",
+			"name_en": "Ponyta",
+			"desc": "Ses sabots sont plus résistants que le diamant. Il peut aplatir n'importe quoi en le piétinant. Capable de sauter très haut, ses sabots et ses pattes peuvent absorber l'impact de l'atterrissage."
+		},
+		{
+			"id":"78",
+			"name_fr": "Galopa",
+			"name_en": "Rapidash",
+			"desc": "Doté d'un esprit de compétition, il poursuit toute créature rapide pour la course. Il aime la course. Il poursuit tout ce qui va plus vite que lui. Question d'honneur."
+		},
+		{
+			"id":"79",
+			"name_fr": "Ramoloss",
+			"name_en": "Slowpoke",
+			"desc": "Très lent et endormi, il lui faut 5 secondes pour ressentir la douleur d'une attaque. Lent et stupide, il aime se la couler douce en observant l'activité autour de lui."
+		},
+		{
+			"id":"80",
+			"name_fr": "Flagadoss",
+			"name_en": "Slowbro",
+			"desc": "Le Kokiyas accroché à la queue du Ramoloss se nourrit des restes de son hôte. Il se prélasse au soleil. Si le Kokiyas, accroché à sa queue s'en va, il redevient un Ramoloss."
+		},
+		{
+			"id":"81",
+			"name_fr": "Magnéti",
+			"name_en": "Magnemite",
+			"desc": "Il contrôle la gravité pour pouvoir voler. Il attaque avec des cages-éclair. Sa nature défie les lois de la gravité. Il flotte grâce à un champ électromagnétique."
+		},
+		{
+			"id":"82",
+			"name_fr": "Magnéton",
+			"name_en": "Magneton",
+			"desc": "Constitué de Magneti reliés les uns aux autres, il apparaît lorsque le soleil brille. Il émet un signal radio étrange. Sa présence augmente la température de 1 degré dans un rayon de 1000 m."
+		},
+		{
+			"id":"83",
+			"name_fr": "Canarticho",
+			"name_en": "Farfetch'd",
+			"desc": "Il utilise l'oignon qu'il a dans la bouche comme une épée d'acier. Ils vivent près des roseaux. On en voit peu, ils sont peut-être en voie d'extinction."
+		},
+		{
+			"id":"84",
+			"name_fr": "Doduo",
+			"name_en": "Doduo",
+			"desc": "Cette oiseau vole très mal mais court très vite. Il laisse de gigantesque empreintes de pas. Ses petites ailes ne lui permettent pas de voler, mais il peut courir très rapidement."
+		},
+		{
+			"id":"85",
+			"name_fr": "Dodrio",
+			"name_en": "Dodrio",
+			"desc": "Il élabore des plans complexes avec ses trois cerveaux. Une de ces têtes reste toujours éveillée. Quand une des 2 têtes d'un Doduo se divise, il devient un Dodrio capable de courir à 60 km/h."
+		},
+		{
+			"id":"86",
+			"name_fr": "Otaria",
+			"name_en": "Seel",
+			"desc": "La corne sur son front est très résistante. Elle lui sert à percer des blocs de glace. Il est à l'aise dans les endroits froids et gelés. Il peut nager dans de l'eau à 0 degré."
+		},
+		{
+			"id":"87",
+			"name_fr": "Lamantine",
+			"name_en": "Dewgong",
+			"desc": "Il emmagasine la chaleur dans son corps. Il peut nager dans l'eau glacée à plus de 8 noeuds. Son corps entier est d'une couleur blanc neige. Il peut nager au milieu des icebergs."
+		},
+		{
+			"id":"88", 
+			"name_fr": "Tadmorv", 
+			"name_en": "Grimer",
+			"desc": "Vivant dans des tas d'ordures, il se nourrit des déchets polluants rejetés par les usines. Ce tas d'ordure concentrées sent très mauvais. Rien ne peut pousser son sillage putride."
+		},
+		{
+			"id":"89", 
+			"name_fr": "Grotadmorv", 
+			"name_en": "Muk",
+			"desc": "Il est recouvert d'une épaisse couche toxique. Il laisse une trace empoisonnée derrière lui. Son odeur immonde provoque des évanouissements. Son odorat s'est atrophié par sa propre puanteur."
+		},
+		{
+			"id":"90", 
+			"name_fr": "Kokiyas", 
+			"name_en": "Shellder",
+			"desc": "Protégé par une carapace très résistante, il est vulnérable quand celle-ci s'ouvre. Sa coquille le protège de toute attaque. Si elle s'ouvre son corps fragile devient vulnérable."
+		},
+		{
+			"id":"91", 
+			"name_fr": "Crustabri", 
+			"name_en": "Cloyster",
+			"desc": "Une fois menacé, il envoie de rapides volées de dards. Sa partie interne est inconnue. Sa coquille plus dure que le diamant le protège. Il peut envoyer des volées de dards."
+		},
+		{
+			"id":"92", 
+			"name_fr": "Fantominus", 
+			"name_en": "Gastly",
+			"desc": "Ce Pokémon gazeux plonge ses victimes dans un profond sommeil sans qu'elles ne s'en aperçoivent. On en trouve dans les maisons en ruines. Il n'a pas de forme bien définie car il est fait de gaz."
+		},
+		{
+			"id":"93", 
+			"name_fr": "Spectrum", 
+			"name_en": "Haunter",
+			"desc": "Il peut se glisser à travers les murs comme une créature d'une autre dimension. Les tremblements provoqués par le contact de sa langue éthérée ne s'arrêtent qu'à l'évanouissement."
+		},
+		{
+			"id":"94", 
+			"name_fr": "Ectoplasma", 
+			"name_en": "Gengar",
+			"desc": "Les nuits de pleine lune, il imite l'ombre des passants et se moque de leur effroi. Quand il lance une malédiction, il émet une aura malveillante qui provoque des frissons."
+		},
+		{
+			"id":"95", 
+			"name_fr": "Onix", 
+			"name_en": "Onix",
+			"desc": "Les parties en pierre de son corps durcissent pour devenir comme un diamant de couleur noire. Il creuse sous terre en quête de nourriture. Ses tunnels servent de maison aux Taupiqueur."
+		},
+		{
+			"id":"96", 
+			"name_fr": "Soporifik", 
+			"name_en": "Drowzee",
+			"desc": "Il endort ses ennemis et dévore leurs songes. En mangeant de mauvais rêves, il devient malade. Si vous dormez près de lui, il influencera vos rêves avec les songes qu'il a dévorés."
+		},
+		{
+			"id":"97", 
+			"name_fr": "Hypnomade", 
+			"name_en": "Hypno",
+			"desc": "En fixant son adversaire, il l'assaille avec les attaques psy d'hypnose et de choc mental. Evitez son regard quand vous en croisez un, ou il essayera de vous hypnotiser avec son pendule"
+		},
+		{
+			"id":"98", 
+			"name_fr": "Krabby", 
+			"name_en": "Krabby",
+			"desc": "Ses pinces sont des armes très puissantes. Elles lui servent aussi à garder son équilibre. Ses pinces sont de puissantes armes. Si une se casse durant un combat, elle repoussera vite."
+		},
+		{
+			"id":"99", 
+			"name_fr": "Krabboss", 
+			"name_en": "Kingler",
+			"desc": "Son énorme pince peut déployer une pression de 1000 Kg. Mais elle est très encombrante. Sa pince, grosse et dure comme de l'acier, peut déployer une pression de 100 tonnes."
+		},
+		{
+			"id": "100",
+			"name_fr": "Voltorbe",
+			"name_en": "Voltorb",
+			"desc": "Vivant dans les centrales, ce Pokémon survolté est souvent confondu avec une PokéBall. On dit qu'il se déguise en PokéBall. Il s'autodétruira à la moindre stimulation."
+		},
+		{
+			"id": "101",
+			"name_fr": "Électrode",
+			"name_en": "Electrode",
+			"desc": "Il emmagasine des quantités énormes de courants électriques sous pression pouvant exploser. Il stocke de l'énergie électrique dans son corps, ce qui le rend instable et explosif."
+		},
+		{
+			"id": "102",
+			"name_fr": "Nœunœuf",
+			"name_en": "Exeggcute",
+			"desc": "Souvent pris pour des oeufs, il attaquent en groupe comme un essaim. Les têtes sont attirées les unes vers les autres. Il en faut 6 pour qu'il établisse son équilibre."
+		},
+		{
+			"id": "103",
+			"name_fr": "Noadkoko",
+			"name_en": "Exeggutor",
+			"desc": "On raconte que si une de ses têtes se détache, elle se transforme en un Noeunoeuf. Son hurlement est strident car ses 3 têtes se chamaillent tout le temps."
+		},
+		{
+			"id": "104",
+			"name_fr": "Osselait",
+			"name_en": "Cubone",
+			"desc": "Il ne retire jamais son casque en os. Personne n'a jamais vu le visage de ce Pokémon. Il porte le crâne de sa défunte mère. Ses pleurs résonnent dans son casque en une triste mélodie."
+		},
+		{
+			"id": "105",
+			"name_fr": "Ossatueur",
+			"name_en": "Marowak",
+			"desc": "L'os qu'il tient dans sa main est une arme. Il peut le lancer avec adresse pour assommer sa proie. Petit et faible, ce Pokémon est habile avec sa masse en os. Il devient vicieux avec l'âge."
+		},
+		{
+			"id": "106",
+			"name_fr": "Kicklee",
+			"name_en": "Hitmonlee",
+			"desc": "S'il est pressé, ses jambes s'allongent progressivement. Il court alors très rapidement. Quand il donne des coups de pieds, ceux-ci deviennent durs comme le diamant."
+		},
+		{
+			"id": "107",
+			"name_fr": "Tygnon",
+			"name_en": "Hitmonchan",
+			"desc": "Il distribue des séries de coups de poing rapides comme l'éclair, invisibles à l'oeil nu. Ses coups de poings rotatifs sont si puissants qu'il peut forer le béton comme un marteau-piqueur."
+		},
+		{
+			"id": "108",
+			"name_fr": "Excelangue",
+			"name_en": "Lickitung",
+			"desc": "Il peut projeter sa langue comme un caméléon. Tout contact avec elle provoque une irritation. Sa langue mesure 2m et elle est plus maniable que ses pattes. Son contact provoque la paralysie."
+		},
+		{
+			"id": "109",
+			"name_fr": "Smogo",
+			"name_en": "Koffing",
+			"desc": "Son corps, constitué de gaz toxiques et instables, peut exploser soudainement. Dans des endroits chauds, son corps fait de gaz devient instable et peut exploser. Attention !"
+		},
+		{ 
+			"id": "110",
+			"name_fr": "Smogogo",
+			"name_en": "Weezing",
+			"desc": "Deux Smogo peuvent se combiner en un Smogogo en mélangeant leurs gaz. Ce Pokémon se nourrit de gaz, de poisons, et de germes que l'on peut trouver dans des tas d'ordures."
+		},
+		{ 
+			"id": "111",
+			"name_fr": "Rhinocorne",
+			"name_en": "Rhyhorn",
+			"desc": "Avec une ossature 1000 fois plus résistante que celle de l'homme, ses charges sont dévastatrices. Un Pokémon qui a des oeillères. S'il se met à charger, il ne s'arrêtera qu'à l'épuisement."
+		},
+		{
+			"id": "112",
+			"name_fr": "Rhinoféros",
+			"name_en": "Rhydon",
+			"desc": "Son épiderme très épais lui permet de survivre dans un environnement de plus de 3600 degrés. Il peut se tenir debout. Il semble un peu intelligent. Son épiderme résiste même à la lave."
+		},
+		{
+			"id": "113",
+			"name_fr": "Leveinard",
+			"name_en": "Chansey",
+			"desc": "Un Pokémon rare et difficile à capturer qui porte chance et bien-être à son possesseur. Il est gentil et aimable, et il partage ses oeufs nourrissants avec les Pokémon blessés."
+		},
+		{
+			"id": "114",
+			"name_fr": "Saquedeneu",
+			"name_en": "Tangela",
+			"desc": "Son corps est recouvert de lianes similaires à des algues. Elles bougent quand il marche. Son corps est masqué par une masse épaisse de lianes bleues qui poussent en permanence."
+		},
+		{
+			"id": "115",
+			"name_fr": "Kangourex",
+			"name_en": "Kangaskhan",
+			"desc": "Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de trois ans. Il élève son petit dans sa poche ventrale. Il ne l'abandonne jamais dans un combat."
+		},
+		{
+			"id": "116",
+			"name_fr": "Hypotrempe",
+			"name_en": "Horsea",
+			"desc": "Il peut nager à l'envers en agitant ses petites nageoires pectorales. Menacé, il crache un jet d'encre ou d'eau de sa bouche pour se défendre."
+		},
+		{
+			"id": "117",
+			"name_fr": "Hypocéan",
+			"name_en": "Seadra",
+			"desc": "Il peut nager à l'envers en agitant ses petites nageoires pectorales. Le contact de sa nageoire provoque une irritation. Il ancre sa queue au corail pour dormir."
+		},
+		{
+			"id": "118",
+			"name_fr": "Poissirène",
+			"name_en": "Goldeen",
+			"desc": "Quand survient la saison de ponte, on peut en voir dans les rivières et les cascades en larges groupes."
+		},
+		{
+			"id": "119",
+			"name_fr": "Poissoroy",
+			"name_en": "Seaking",
+			"desc": "Pendant la saison des amours, on peut le voir nager près des rivières ou des lacs. Le mâle utilise la corne placée sur son front pour creuser un nid dans la rivière."
+		},
+		{
+			"id": "120",
+			"name_fr": "Stari",
+			"name_en": "Staryu",
+			"desc": "Un Pokémon bien curieux qui peut régénérer ses appendices sectionnés lors d'un combat. Tant que sa partie centrale est indemne, il peut régénérer les parties de son corps."
+		},
+		{
+			"id": "121",
+			"name_fr": "Staross",
+			"name_en": "Starmie",
+			"desc": "Son coeur brille des couleurs de l'arc en ciel. On raconte que c'est une pierre précieuse. Quand le centre de son corps, appelé le coeur, brille de 7 couleurs, il essaie de parler."
+		},
+		{
+			"id": "122",
+			"name_fr": "Mr. Mime",
+			"name_en": "M. Mime",
+			"desc": "Dérangez-le pendant qu'il mime et il se battra en distribuant des volées de claques. Il est toujours en train de mimer. Il leurre ses ennemis en mimant des actions irréelles."
+		},
+		{
+			"id": "123",
+			"name_fr": "Insécateur",
+			"name_en": "Scyther",
+			"desc": "Rapide et agile comme un ninja, il se déplace si vite qu'il crée l'illusion d'être en groupe. Bondissant hors de l'herbe comme un ninja, il lacère sa proie de ses griffes acérées."
+		},
+		{
+			"id": "124",
+			"name_fr": "Lippoutou",
+			"name_en": "Jynx",
+			"desc": "Il ondule ses hanches en marchant et entraîne les gens dans des danses frénétiques. Il bouge en rythme comme s'il dansait. Il ondule du popotin quand il marche."
+		},
+		{
+			"id": "125",
+			"name_fr": "Élektek",
+			"name_en": "Electabuzz",
+			"desc": "Vivant dans les centrales, il provoque des pannes de courant en s'aventurant en ville. Il provoque des pannes de courants dans les centrales en mangeant de l'électricité."
+		},
+		{
+			"id": "126",
+			"name_fr": "Magmar",
+			"name_en": "Magmar",
+			"desc": "Son corps fusion brûle d'une flamme orangée, le rendant invisible dans le feu. Né dans un volcan en fusion, son corps est recouvert de flammes, comme une boule de feu."
+		},
+		{
+			"id": "127",
+			"name_fr": "Scarabrute",
+			"name_en": "Pinsir",
+			"desc": "Quand il ne peut pas écraser sa proie avec sa pince, il la secoue et l'envoie dans les airs. Il enserre sa proie de sa puissance pince. Il ne peut se déplacer dans les milieux froids."
+		},
+		{
+			"id": "128",
+			"name_fr": "Tauros",
+			"name_en": "Tauros",
+			"desc": "Une fois sa cible en vue, il la charge furieusement en fouettant l'air de sa queue. C'est un Pokémon très endurant. Il n'achève sa charge qu'une fois sa cible pulvérisée."
+		},
+		{
+			"id": "129",
+			"name_fr": "Magicarpe",
+			"name_en": "Magikarp",
+			"desc": "Autrefois, il était beaucoup plus puissant que cette créature minablement faible.Célèbre pour son inutilité, on en trouve beaucoup dans les océans, les étangs et les rivières."
+		},
+		{
+			"id": "130",
+			"name_fr": "Léviator",
+			"name_en": "Gyarados",
+			"desc":	"Gigantesque et maléfique, il est capable de raser une ville dans un accès de rage terrifiante. Brutal, vicieux et dangereux, il est connu pour avoir rasé des villes entières par le passé."
+		},
+		{
+			"id": "131",
+			"name_fr": "Lokhlass",
+			"name_en": "Lapras",
+			"desc":	"Ce Pokémon en voie d'extinction peut transporter des passagers sur son dos par-delà les océans. D'une âme noble, il peut lire dans les esprits. Il transporte les humains sur son dos."
+		},
+		{
+			"id": "132",
+			"name_fr": "Métamorph",
+			"name_en": "Ditto",
+			"desc":	"Il est capable de copier le code génétique d'un ennemi pour se transformer en son double. Quand il repère un ennemi, il adapte sa forme pour en faire une copie parfaite."
+		},
+		{
+			"id": "133",
+			"name_fr": "Évoli",
+			"name_en": "Eevee",
+			"desc":	"Sa génétique particulière lui permet d'évoluer s'il est exposé aux radiations d'une pierre. Sa génétique instable lui permet d'évoluer de plusieurs façons. Très peu sont en vie."
+		},
+		{
+			"id": "134",
+			"name_fr": "Aquali",
+			"name_en": "Vaporeon",
+			"desc":	"Il vit au bord de l'eau. Sa queue lui donne l'apparence d'une sirène. Sa structure cellulaire est semblable à celle de l'eau. Il est invisible en milieu aquatique."
+		},
+		{
+			"id": "135",
+			"name_fr": "Voltali",
+			"name_en": "Jolteon",
+			"desc":	"Il se charge d'électricité statique pour envoyer des décharges de 10 000 Volts. Un Pokémon très sensible et lunatique. Il se charge en énergie selon son humeur."
+		},
+		{
+			"id": "136",
+			"name_fr": "Pyroli",
+			"name_en": "Flareon",
+			"desc":	"Il peut accumuler suffisamment de chaleur pour atteindre des températures de 1600 degrés. Une flamme brûle en permanence dans son corps. Il crache un feu de plus de 1000 degrés."
+		},
+		{
+			"id": "137",
+			"name_fr": "Porygon",
+			"name_en": "Porygon",
+			"desc":	"Un Pokémon fait de programmes d'algorithmes. Il peut survivre en milieu virtuel. Conçu pour voler dans l'espace, on ne lui a toujours pas trouvé une autre utilité."
+		},
+		{
+			"id": "138",
+			"name_fr": "Amonita",
+			"name_en": "Omanyte",
+			"desc":	"Disparu depuis longtemps, il peut être réanimé génétiquement à partir d'anciens fossiles. Un ancien Pokémon régénéré à partir d'un fossile. Il nage grâce à ses 10 tentacules."
+		},
+		{
+			"id": "139",
+			"name_fr": "Amonistar",
+			"name_en": "Omastar",
+			"desc":	"Un Pokémon préhistorique qui disparut quand sa coquille devint trop lourde à déplacer. Sa bouche est formée de becs aiguisés. Sa coquille trop lourde l'empêche de se déplacer."
+		},
+		{
+			"id": "140",
+			"name_fr": "Kabuto",
+			"name_en": "Kabuto",
+			"desc": "Un Pokémon reconstitué à partir d'un fossile trouvé dans un site préhistorique. Créé à partir d'un fossile, il se sert des yeux dans son dos quand il se cache au fond de l'eau."
+		},
+		{
+			"id": "141",
+			"name_fr": "Kabutops",
+			"name_en": "Kabutops",
+			"desc": "Sa forme élancée lui permet de nager rapidement. Il lacère sa proie avant d'en absorber la vie. C'est un très bon nageur. Il lacère sa proie de ses longues griffes et en absorbe les fluides corporels."
+		},
+		{
+			"id": "142",
+			"name_fr": "Ptéra",
+			"name_en": "Aerodactyl",
+			"desc": "Un Pokémon préhistorique qui attaque son ennemi à la gorge avec ses crocs acérés. Un Pokémon sauvage disparu il y a longtemps. Il est créé à partir d'ADN fossilisé dans de l'ambre."
+		},
+		{
+			"id": "143",
+			"name_fr": "Ronflex",
+			"name_en": "Snorlax",
+			"desc": "Très paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fainéant. Il peut tout manger, même de la nourriture avariée. Il n'a jamais mal au ventre."
+		},
+		{
+			"id": "144",
+			"name_fr": "Artikodin",
+			"name_en": "Articuno",
+			"desc": "Le légendaire oiseau des glaces. On dit qu'il apparaît aux gens perdus dans les sommets. Un Pokémon légendaire. Il glace la vapeur d'eau contenue dans l'air pour faire de la neige."
+		},
+		{
+			"id": "145",
+			"name_fr": "Électhor",
+			"name_en": "Zapdos",
+			"desc": "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs. Ce Pokémon légendaire annonce l'arrivée de nuages noirs, d'éclairs et d'averses."
+		},
+		{
+			"id": "146",
+			"name_fr": "Sulfura",
+			"name_en": "Moltres",
+			"desc": "Le légendaire oiseau du feu. Une pluie de flammes surgit à chaque battement de ses ailes. Quand ce Pokémon légendaire agite ses ailes de feu, même la nuit noire s'embrase et rougeoie."
+		},
+		{
+			"id": "147",
+			"name_fr": "Minidraco",
+			"name_en": "Dratini",
+			"desc": "Longtemps considéré comme légendaire, une colonie fut découverte dans les océans. L'existence de ce Pokémon mythique ne fut confirmée que récemment par un pêcheur."
+		},
+		{
+			"id": "148",
+			"name_fr": "Draco",
+			"name_en": "Dragonair",
+			"desc": "Un Pokémon légendaire plein de charme. Il peut contrôler les variations climatiques. Selon certains, son corps est baigné d'une étrange aura, lui donnant un air mystique."
+		},
+		{
+			"id": "149",
+			"name_fr": "Dracolosse",
+			"name_en": "Dragonite",
+			"desc": "Un Pokémon marin extrêmement rare. On dit qu'il est aussi intelligent que l'homme. On raconte que ce Pokémon vit quelque part dans la mer et qu'il peut voler. rien n'est moins sûr."
+		},
+		{
+			"id": "150",
+			"name_fr": "Mewtwo",
+			"name_en": "Mewtwo",
+			"desc":	"MewtwoIl est le fruit de nombreuses expériences génétiques horribles et malsaines. Son ADN est le même que celui de MEW mais sa taille et son aspect sont très différents."
+		},
+		{
+			"id": "151",
+			"name_fr": "Mew",
+			"name_en": "Mew",
+			"desc":	"Unique et rare, son existence est remise en cause par les experts. Peu nombreux sont ceux qui l'ont vu. Vu au microscope, le pelage de ce Pokémon est fin, soyeux et très délicat."
+		}
+	]
+}

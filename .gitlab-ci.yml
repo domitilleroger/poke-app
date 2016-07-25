@@ -1,0 +1,14 @@
+stages: [build]
+
+# make sure name can be integrated with other projects: php, java or nodejs
+prepare_front:
+  stage: build
+  tags: [docker]
+  image: ekino/docker-buildbox:node4.3-2016.05.03
+  script:
+    - apt-get update
+    - apt-get install -y pngquant
+    - npm set registry https://mirror.ekino.com/npm/npm
+    - npm install
+    - npm test
+    - gulp build
