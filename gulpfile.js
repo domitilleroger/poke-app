@@ -18,7 +18,10 @@ var del = require('del');
 var path = require('path');
 var runSequence = require('run-sequence'); // while gulp < 4.0
 var config = require('./config.json');
-var jsonfile = require('jsonfile')
+var jsonfile = require('jsonfile');
+var browserify = require('browserify');
+var reactify = require('reactify');
+var source = require('vinyl-source-stream');
 
 
 gulp.task('default', ['build']);
@@ -110,7 +113,7 @@ gulp.task('datas', function() {
  * Javascript
  * - Uglify
  *
- **/
+ *
 gulp.task('scripts', function() {
     return gulp.src(path.join(config.srcPath, 'js/*.js'))
         .pipe(plumber())
@@ -118,10 +121,21 @@ gulp.task('scripts', function() {
         .pipe(rename({
             suffix: ".min"
         }))
-        .pipe(gulp.dest(path.join(config.outputPath, 'js')))
+        .pipe(gulp.dest(path.join(config.outputPath, 'js')));
+});*/
+
+/**
+ *
+ * Reactjs
+ *
+ **/
+gulp.task('reactjs', function(){
+    browserify(path.join(config.srcPath, 'jsx/app.jsx'))
+        .transform(reactify)
+        .bundle()
+        .pipe(source('app.js'))
+        .pipe(gulp.dest(path.join(config.outputPath, 'js')));
 });
-
-
 
 /**
  *
@@ -132,19 +146,19 @@ gulp.task('scripts', function() {
  *
  **/
 gulp.task('watch', ['build'], function () {
+    gulp.watch(path.join(config.srcPath, 'datas/**/*'), ['json-file'])
+        .on('change', function (event) {
+            gutil.log('File ' + event.path + ' was ' + event.type + ', running tasks...')
+        });
     gulp.watch(path.join(config.srcPath, 'sass/**/*.scss'), ['sass'])
         .on('change', function (event) {
             gutil.log('File ' + event.path + ' was ' + event.type + ', running tasks...')
         });
-    gulp.watch(path.join(config.srcPath, 'js/**/*.js'), ['scripts'])
+    gulp.watch(path.join(config.srcPath, 'jsx/**/*.jsx'), ['reactjs'])
         .on('change', function (event) {
             gutil.log('File ' + event.path + ' was ' + event.type + ', running tasks...')
         });
     gulp.watch('*.html', ['html'])
-        .on('change', function (event) {
-            gutil.log('File ' + event.path + ' was ' + event.type + ', running tasks...')
-        });
-    gulp.watch(path.join(config.srcPath, 'datas/**/*'), ['json-file'])
         .on('change', function (event) {
             gutil.log('File ' + event.path + ' was ' + event.type + ', running tasks...')
         });
@@ -157,7 +171,7 @@ gulp.task('watch', ['build'], function () {
 gulp.task('build', function(cb) {
     runSequence(
         'clean',
-        ['sass', 'scripts', 'html', 'datas', 'json-file'],
+        ['sass', 'reactjs', 'html', 'datas', 'json-file'],
         cb
     )
 });

@@ -25,6 +25,7 @@
   "homepage": "https://gitlab.fullsix.com/dfo-internal/gulp-sass-starter-kit",
   "devDependencies": {
     "browser-sync": "^2.0.0",
+    "browserify": "^13.1.0",
     "chai": "^3.5.0",
     "del": "^2.2.0",
     "gulp": "^3.8.8",
@@ -43,8 +44,12 @@
     "mocha": "^2.5.3",
     "optipng-bin": "^3.1.1",
     "path": "^0.12.7",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "reactify": "^1.1.1",
     "run-sequence": "^1.1.5",
-    "sinon": "^1.17.4"
+    "sinon": "^1.17.4",
+    "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
     "jsonfile": "^2.3.1"
